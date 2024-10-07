@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #ededed;
+}
+
+#h1Elem{
+    font-size: 2rem;
+    font-family: "Prompt", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+}
+
+#pElem{
+    text-align: center;
+    font-family: "Prompt", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
