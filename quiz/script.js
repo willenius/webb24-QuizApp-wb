@@ -2,7 +2,7 @@
 const quizQuestions = [
     {
         question: "Which nation won the UEFA Euros 1992 despite not even qualifying?",
-        options: ["Germany", "England", "Denmark"],
+        options: ["Germany", "England", "Denmark", "Czech Republic"],
         correctAnswer: "Denmark!",
     },
 
@@ -19,13 +19,13 @@ const quizQuestions = [
     },
     {
         question: "What is Gareth Bale's favorite sport, (except for football?!) ",
-        options: ["Rugby", "Golf", "Ice hockey"],
+        options: ["Rugby", "Golf", "Ice hockey", "Cricket"],
         correctAnswer: "Golf",
     },
 
     {
         question: ["Which goalkeeper ended up playing ice-hockey after his carreer?"],
-        options: ["Petr Čech", "Iker Casillas", "Gianluigi Buffon"],
+        options: ["Petr Čech", "Iker Casillas", "Gianluigi Buffon","Edvin van Der Sar" ],
         correctAnswer: "Petr Čech decided to follow his boy dream of becoming a professional hockey goaltender in England.",
 
     }
