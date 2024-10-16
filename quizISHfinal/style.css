@@ -1,0 +1,134 @@
+* {
+    background-color: #20639b;
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style:normal;
+  }
+  
+  
+  body {
+    border: 5px solid #d4dcdf;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 130px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #localQuizBtn,
+  #apiQuizBtn {
+    background-color: rgba(192, 192, 192, 0.24);
+    color: #d4dadf;
+    border-radius: 13px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #startContainer {
+      gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  /* Här är H1, QUIZFRÅGAN OCH paragraph */
+  #h1Elem,
+  #pElem,
+  #htmlQuestion {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /*  start-container knapparna, (HOMEPAGE)*/
+  #startContainer button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  
+  /* om RÄTT, ska grön */
+  .correct {
+    background-color: rgb(4, 173, 4);
+  }
+  /* om FEL, ska vara röd */
+  .incorrect {
+    background-color: rgb(194, 52, 52);
+  }
+  /* main för frågorna, classägaren. här sätter vi flexen */
+  #buttonHTML {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  /* frågorna */
+  .quizHolderBtn {
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    border-radius: 13px;
+    padding: 10px 20px;
+    cursor: pointer;
+    height: 50%;
+    width: 100%;
+  }
+  /* container för knapparna */
+  
+  #buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+  }
+  
+  /* min next knapp, hittade en snygg animation för "next" att komma in */
+  #sportsNextBtn {
+    border-radius: 13px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 150px;
+    font-size: 1.5rem;
+    position: relative;
+    animation: my_animationNextBtn 1s;
+    animation-fill-mode: both;
+  }
+  /* reset, egentligen samma som "next" */
+  #resetQuizBtn {
+      border-radius: 13px;
+      padding: 10px 20px;
+      cursor: pointer;
+      width: 150px;
+      font-size: 1.5rem;
+      position: relative;
+      animation: my_animationNextBtn 1s;
+      animation-fill-mode: both;
+  }
+  
+  /* button:hover {
+    background-color: whitesmoke;
+  } */
+  
+  /* satt och letade efter en animation och stötte på denna. */
+  @keyframes my_animationNextBtn {
+    from {
+      left: -300px;
+      opacity: 0;
+    }
+  
+    to {
+      left: 0;
+      opacity: 1;
+    }
+  }
+  
