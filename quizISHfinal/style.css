@@ -111,13 +111,14 @@
       width: 150px;
       font-size: 1.5rem;
       position: relative;
-      animation: my_animationNextBtn 1s;
+      animation: my_animationNextBtn 0.3s;
       animation-fill-mode: both;
   }
   
-  /* button:hover {
+  button:hover {
     background-color: whitesmoke;
-  } */
+    transition: 0.7s;
+  }
   
   /* satt och letade efter en animation och stötte på denna. */
   @keyframes my_animationNextBtn {
@@ -132,3 +133,14 @@
     }
   }
   
+  @media (max-width: 768px){
+  #localQuizBtn,
+  #apiQuizBtn{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    body{
+      display: block;
+    }
+  }
