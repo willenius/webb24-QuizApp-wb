@@ -158,11 +158,11 @@ resetQuizBtn.addEventListener('click', resetQuiz);
 function resetQuiz() {
     let currentQuestionIndex = 0;
     let sportsQuizScore = 0;
-    let questions = [];
-    let usedQuestions = [];
+    location.reload();
 
     startContainer.style.display = "block";
     quizContainer.style.display = "none";
     resetQuizBtn.style.display = "none";
     sportsNextBtn.style.display = "none";
 }
+

@@ -46,7 +46,7 @@ export const quizQuestions = [
     },
 
     {
-        question: "Who is the best sporting director in the world, according to every football fan?",
+        question: "Who is the best sporting director in the world?",
         options: ["Super-Bo Andersson", "Ralf Rangnick", "Silvio Berlusconi", "Florentino Pérez", "Deco"],
         correctAnswer: "Super-Bo Andersson"
     }
